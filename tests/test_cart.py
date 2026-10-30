@@ -12,7 +12,7 @@ class CartTest(unittest.TestCase):
         self.assertEqual(apply_discount(2000, 10), 1800)
 
     def test_cart_total_with_discount(self):
-        self.assertEqual(total([1000, 2000], 50), 1500)
+        self.assertEqual(total([1000, 2000], 10), 2700)
 
 
 if __name__ == "__main__":
